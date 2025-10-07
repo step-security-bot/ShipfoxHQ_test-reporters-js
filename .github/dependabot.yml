@@ -1,0 +1,36 @@
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /examples/jest
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /examples/vitest
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /libs/base-reporter
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /libs/jest-reporter
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /libs/vitest-reporter
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: daily
